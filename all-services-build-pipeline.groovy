@@ -7,7 +7,7 @@ pipeline {
         stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vikarm-verma/ec2-repo.git'
+                git 'https://github.com/vikarm-verma/ec2-repo1.git'
             }
         }
 
