@@ -19,7 +19,7 @@ pipeline {
                     echo 'Building eureka-server service...'
                     sh 'mvn clean package'
                     echo 'Deploying the eureka-server'
-                    sh 'nohup java -jar target/eureka-server-0.0.1-SNAPSHOT.jar &'
+                    sh 'nohup java -jar target/eureka-server-0.0.1-SNAPSHOT.jar'
         }
                     dir('apigateway')
         {
