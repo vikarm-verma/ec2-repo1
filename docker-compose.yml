@@ -91,7 +91,7 @@ services:
     image: springsecurityjwt
     build: ./SpringSecurityJwt
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://springbootdb.cbpl1vfv9hvz.us-east-1.rds.amazonaws.com:3306/springbootdb
+      SPRING_DATASOURCE_URL: jdbc:mysql://microservices-db-instance.cbpl1vfv9hvz.us-east-1.rds.amazonaws.com:3306/springbootdb
       SPRING_DATASOURCE_USERNAME: admin
       SPRING_DATASOURCE_PASSWORD: rootroot
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
